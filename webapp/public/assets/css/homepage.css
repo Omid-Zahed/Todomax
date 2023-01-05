@@ -1,3 +1,4 @@
+
 html, body {
     height: 100%;
     width: 100%;
@@ -13,7 +14,7 @@ html, body {
 }
 body
 {
-    background-image: url("https://preppywallpapers.com/wp-content/uploads/2018/09/Floral-Mac-Wallpaper-Collection-by-PreppyWallpapers.jpg");
+    background-image: url("../images/Wallpapers.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,8 +52,9 @@ body
     align-items: center;
 }
 .one img{
-    width: 50px;
-    height:50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 form{
     display: flex;
@@ -74,6 +76,16 @@ form input{
     border-radius: 15px;
     font-size: 18px;
     color: geay;
+}
+form div.btn_section{
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+form div.btn_section input[type="button"]{
+    background: #ffffff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
 }
 footer{
     padding:0 5px;
