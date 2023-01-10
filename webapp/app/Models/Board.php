@@ -6,12 +6,10 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * @property $description
- * @property $id
- * @property $background
- * @preperty $user_id
- * @preperty $workspace_id
- * @preperty $name
+ * @property string $title
+ * @property string $description
+ * @property int $id
+ * @property string $background_color
  */
 class Board  extends Model
 {
